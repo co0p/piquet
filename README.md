@@ -1,4 +1,8 @@
-piquet
-======
+PIQUET - Programming Interview QUEsTions
+----
 
-Collection of Programming Interview Questions
+Most ideas for questions come from http://javarevisited.blogspot.de/2011/06/top-programming-interview-questions.html.
+
+
+Answers may not be correct ... use at own risk!
+
