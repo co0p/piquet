@@ -6,7 +6,7 @@
 using namespace std;
 
 /* returns true if candidate is palindrome, otherwise false */
-bool isPalindrome(string candidate) {
+bool isPalindrome(string & candidate) {
   if (candidate.length() < 1) return false;
 
   int left = 0;
