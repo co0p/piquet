@@ -5,17 +5,13 @@
 
 using namespace std;
 
+
 string returnReverse(string& ostr) {
   string str = ostr;
-  char tmp;
-  int pos = str.length()-1;
-  for (int i=0; i<str.length()/2; i++) {
-    tmp = str.at(pos);
-    str[i] = str[pos];
-    str[pos] = tmp;
-    pos--;
+  int j = 0;
+  for (int i=ostr.length()-1; i>=0; i--) {
+    str[j++] = ostr[i];
   }
-
   return str;
 }
 
