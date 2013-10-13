@@ -111,9 +111,7 @@ int main(int argc, char* argv[]) {
 
   cout << "coffee with milk: " << drink2->cost() << endl;
 
-  Beverage *drink3 = new Special();
-  drink3 = new Milk(drink3);
-  drink3 = new Sugar(drink3);
+  Beverage *drink3 = new Sugar(new Milk(new Special()));
   cout << "special with milk, sugar: " << drink3->cost() << endl;
 
   return 0;
